@@ -1,0 +1,845 @@
+html { font-size: 16px; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  background-color:#333 ;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  color:rgb(145, 255, 0)
+}
+
+.font-naslov{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.naslovna-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.povijest-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  
+}
+
+.rani { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+   font-size: 1.7em;
+    margin: 0;
+    position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.rani:hover .overlay {
+  opacity: 1;
+}
+
+.stari {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tekst3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.razvoj { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    margin: 0;
+    position: relative;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tekst5 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.rukomet69 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.razvoj:hover .overlay2 {
+  opacity: 1;
+}
+
+
+
+
+
+
+.profi { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    margin: 0;
+    position: relative;
+}
+
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tekst6 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.profesional{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.profi:hover .overlay3 {
+  opacity: 1;
+}
+
+
+.hansen { 
+  background-image: url('slike/hansen.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+    border-radius: 10px;
+    color: white;
+    min-width: 400px; 
+    min-height: 400px;
+
+}
+
+.tekst1 a 
+{
+font-size: 23px;
+color: #fff;
+text-decoration: none;
+}
+
+
+.kviz-link { 
+  background-image: url('slike/balic-naj.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 400px; 
+    min-height: 400px;
+}
+
+.tekst-kviz a 
+{
+font-size: 3rem;
+color: rgb(233, 229, 23);
+text-decoration: none;
+}
+
+
+.tablica-rukomet { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    min-width: 400px; 
+    min-height: 400px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid white
+}
+
+.kviz {
+  display: flex;
+  align-items: center;
+}
+
+.pitanja {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+
+.kuzma { 
+  background-image: url('slike/kuzmanovic.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    min-width: 400px; 
+    min-height: 400px;
+
+}
+
+.tekst2 a 
+{
+font-size: 23px;
+color: #fff;
+text-decoration: none;
+}
+
+
+.igraci-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  grid-gap: 20px;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  
+}
+
+.duvnjak { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+   font-size: 1em;
+    margin: 0;
+}
+
+.karabatic { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+   font-size: 1em;
+    margin: 0;
+}
+
+.omejer {
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+   font-size: 1em;
+    margin: 0;
+  
+}
+
+.balic { 
+  background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+   font-size: 1em;
+    margin: 0;
+}
+
+.novosti-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  grid-gap: 20px;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  justify-content: center;
+  
+}
+
+.vijesti-hansen { 
+  background-image: url('slike/hansen.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(26, 206, 230);
+    min-width: 400px; 
+    min-height: 400px;
+   font-size: 1em;
+    margin: 0;
+    position: relative;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tekst10 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.vijesti-hansen:hover .overlay4 {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.vijesti-kuzma { 
+  background-image: url('slike/kuzmanovic.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color:rgb(26, 206, 230);
+    min-width: 400px; 
+    min-height: 400px;
+   font-size: 1em;
+    margin: 0;
+    position: relative;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tekst11 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.vijesti-kuzma:hover .overlay5 {
+  opacity: 1;
+}
+
+.vijesti-musa { 
+  background-image: url('slike/muslic.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(26, 206, 230);
+    min-width: 400px; 
+    min-height: 400px;
+   font-size: 1em;
+    margin: 0;
+    position: relative;
+
+}
+
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tekst12 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.vijesti-musa:hover .overlay6 {
+  opacity: 1;
+}
+
+.vijesti-random { 
+  background-image: url('slike/sagec.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(26, 206, 230);
+    min-width: 400px; 
+    min-height: 400px;
+   font-size: 1em;
+    margin: 0;
+    position: relative;
+}
+
+
+
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tekst13 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.vijesti-random:hover .overlay7 {
+  opacity: 1;
+}
+
+
+.divkviz a{
+  color:black;
+  text-decoration: none;
+}
+
+.kviz2 {
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  color: black;
+  font-size: 1.7em;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.sredinagumb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.igraci-container a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.igraci-container a:hover{
+  color:rgb(145, 255, 0);
+  transition: background-color 0.3s ease;
+}
+
+
+
+  @media only screen and (max-width: 900px) {
+  .novosti-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+.igraci-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+  }
+
+.naslovna-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+.povijest-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+  }
+
+  .kviz2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+
+  .hansen { 
+    min-width: 200px; 
+    min-height: 200px;
+
+}
+
+
+.kviz-link { 
+    min-width: 200px; 
+    min-height: 200px;
+}
+
+.kuzma { 
+  min-width: 200px; 
+  min-height: 200px;
+
+}
+
+.tablica-rukomet { 
+  min-width: 200px; 
+  min-height: 200px;
+  font-size: 7px;
+}
+
+.vijesti-hansen { 
+  min-width: 200px; 
+  min-height: 200px;
+}
+
+.vijesti-kuzma { 
+  min-width: 200px; 
+  min-height: 200px;
+}
+
+.vijesti-musa { 
+  min-width: 200px; 
+  min-height: 200px;  
+}
+
+.vijesti-random { 
+  min-width: 200px; 
+  min-height: 200px;
+}
+
+.tekst10 {
+font-size: 13px;
+}
+
+.tekst11 {
+font-size: 13px;
+}
+
+.tekst12 {
+font-size: 12px;
+}
+
+.tekst13 {
+font-size: 12px;
+}
+  .novosti-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+.igraci-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+
+.naslovna-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+.povijest-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+  }
+
+  .kviz2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pitanja {
+  width:50%;
+  font-size: 13px;
+}
+
+p {
+  font-size: 20px;
+}
+img{
+  min-width: 300px;
+  min-height: 300px;
+}
+
+ul {
+  padding: 0 0 0 0;
+  font-size: 13px;
+  };
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .hansen { 
+      min-width: 200px; 
+      min-height: 200px;
+  
+  }
+
+
+  .kviz-link { 
+      min-width: 200px; 
+      min-height: 200px;
+  }
+
+  .kuzma { 
+    min-width: 200px; 
+    min-height: 200px;
+  
+  }
+
+  .tablica-rukomet { 
+    min-width: 200px; 
+    min-height: 200px;
+    font-size: 8px;
+  }
+
+  .vijesti-hansen { 
+      min-width: 200px; 
+      min-height: 200px;
+  }
+
+  .vijesti-kuzma { 
+      min-width: 200px; 
+      min-height: 200px;
+  }
+
+  .vijesti-musa { 
+      min-width: 200px; 
+      min-height: 200px;  
+  }
+
+  .vijesti-random { 
+      min-width: 200px; 
+      min-height: 200px;
+  }
+
+  .tekst10 {
+    font-size: 13px;
+  }
+
+  .tekst11 {
+    font-size: 13px;
+  }
+
+  .tekst12 {
+    font-size: 12px;
+  }
+
+  .tekst13 {
+    font-size: 12px;
+  }
+  .novosti-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+.igraci-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+  }
+
+.naslovna-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+  }
+.povijest-container{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+  }
+
+  .kviz2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pitanja {
+  width:50%;
+  font-size: 13px;
+}
+
+p {
+  font-size: 20px;
+}
+img{
+  min-width: 300px;
+  min-height: 300px;
+}
+
+ul {
+  padding: 0 0 0 0;
+  font-size: 13px;
+  };
+
+
+
+
+}
